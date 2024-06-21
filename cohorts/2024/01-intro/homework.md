@@ -12,6 +12,7 @@ curl localhost:9200
 
 What's the `version.build_hash` value?
 
+42f05b9372a9a4a470db3b52817899b99a76ee73
 
 ## Getting the data
 
@@ -57,6 +58,8 @@ Which function do you use for adding your data to elastic?
 * `put`
 * `add`
 
+`index`
+
 ## Q3. Searching
 
 Now let's search in our index. 
@@ -72,6 +75,8 @@ Use only `question` and `text` fields and give `question` a boost of 4
 
 Look at the `_score` field.
 
+84.050095
+
 ## Q4. Filtering
 
 Now let's only limit the questions to `machine-learning-zoomcamp`.
@@ -82,6 +87,8 @@ Return 3 results. What's the 3rd question returned by the search engine?
 * How do I copy files from a different folder into docker container’s working directory?
 * How do Lambda container images work?
 * How can I annotate a graph?
+
+How do I copy files from a different folder into docker container’s working directory?
 
 ## Q5. Building a prompt
 
